@@ -1,4 +1,4 @@
-# tournesol
+# Tournesol
 
 A mini BEAM photo head (a.k.a. sunflower) that orients itself towards the sun. 
 
@@ -11,7 +11,9 @@ https://www.marrs.io/dual-solar-tracking-part-iii/
 
 https://www.marrs.io/sunflower-array/
 
-BOM from Mouser and Digikey: 
+
+
+# BOM from Mouser and Digikey: 
 
 74AC240 (make sure it's the AC flavour as it must work at low voltages): 
 
@@ -34,3 +36,12 @@ micro gear motor (make sure it works as low as 2.9V): https://www.mouser.fr/Prod
 voltage trigger (2.9V but you can try other values): https://www.mouser.fr/ProductDetail/Renesas-Intersil/ISL88001IH29Z-T7A?qs=dAsayXGOMrvzqg4LBGVqAg%3D%3D
 
 N-channel MOSFET: https://www.mouser.fr/ProductDetail/Diodes-Incorporated/DMN2215UDM-7?qs=ptj1V1atRArXZWZ7Y9ryoQ%3D%3D
+
+# THINGS TO WATCH OUT FOR:
+
+Make sure not to destroy the Monocrystalline Solar Cells when soldering. They will be destroyed at temperatures higher than 220C (see the datasheet : https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf). I used low temperature solder paste and a hot plate to solder these to 3cm pieces of metal wire which I then later solder normally to the PCB.
+
+If this kit is to be given to beginners, I would help them by first soldering the MOSFET, voltage trigger and solar cells.
+
+You can use hot glue to attach the motor to the back of the PCB and 3D print an adapter that fits onto the axel so it stands still or just hot glue it to something.
+
