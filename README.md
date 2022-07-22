@@ -39,7 +39,7 @@ N-channel MOSFET: https://www.mouser.fr/ProductDetail/Diodes-Incorporated/DMN221
 
 # THINGS TO WATCH OUT FOR:
 
-Make sure not to destroy the Monocrystalline Solar Cells when soldering. They will be destroyed at temperatures higher than 220C (see the datasheet : https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf). I used low temperature solder paste and a hot plate to solder these to 3cm pieces of metal wire which I then later solder normally to the PCB.
+Make sure not to destroy the Monocrystalline Solar Cells when soldering. They will be destroyed at temperatures higher than 220C (see the datasheet : https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf). I used low temperature solder paste and a hot plate to solder these to 3cm pieces of metal wire which I then later solder normally to the PCB (see photo of final tournesol).
 
 If this kit is to be given to beginners, I would help them by first soldering the MOSFET, voltage trigger and solar cells.
 
