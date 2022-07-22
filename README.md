@@ -39,9 +39,12 @@ N-channel MOSFET: https://www.mouser.fr/ProductDetail/Diodes-Incorporated/DMN221
 
 # THINGS TO WATCH OUT FOR:
 
+These components aren't super common (especially the solar cells) and they aren't super inexpensive either (especially the solar cells again, but also the 0.15F capacitors). 
+
 Make sure not to destroy the Monocrystalline Solar Cells when soldering. They will be destroyed at temperatures higher than 220C (see the datasheet : https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf). I used low temperature solder paste and a hot plate to solder these to 3cm pieces of metal wire which I then later solder normally to the PCB (see photo of final tournesol).
 
 If this kit is to be given to beginners, I would help them by first soldering the MOSFET, voltage trigger and solar cells.
 
 You can use hot glue to attach the motor to the back of the PCB and 3D print an adapter that fits onto the axel so it stands still or just hot glue it to something.
 
+In order to test that the solar panels are functioning, you need a nice inefficient incandescent light - not a super efficient LED light. Better yet, the sun at midday in the summer! To test turning right and left, you can cover 1/5 of one of the solar panels and it should turn away from the dark side. If it does the opposite, just change the wiring of the motor. You'll need to mess around with the tilting of the two solar panels, if they are too tilted away from one another they won't both get enough sun to get over the 2.9V trigger level. If they are both pointing straight ahead, you might get less good sun seeking. 
