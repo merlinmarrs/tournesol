@@ -22,13 +22,9 @@ diode (standard 1206)
 
 0.47uF cap (standard 1206)
 
-x2 Monocrystalline Solar Cell (try different voltages between around voltage trigger level and up) such as :
+x2 2.23 V Monocrystalline Solar Cell (to get above the trigger voltage in full sunlight):
 
 https://www.digikey.fr/en/products/detail/anysolar-ltd/KXOB25-03X4F-TR/13999191
-
-or
-
-https://www.digikey.fr/en/products/detail/anysolar-ltd/KXOB25-01X8F-TR/10127242
 
 micro gear motor (make sure it works as low as 2.9V): https://www.mouser.fr/ProductDetail/DFRobot/FIT0094?qs=lqAf%2FiVYw9h6rFbdWMR0RQ%3D%3D
 
