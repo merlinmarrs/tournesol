@@ -1,12 +1,15 @@
 # tournesol
 
-A mini BEAM photo head (a.k.a. sunflower) that orients itself towards the sun. All the component selection work done by Nick Ames here: https://www.fetchmodus.org/projects/beam/photopopper/
+A mini BEAM photo head (a.k.a. sunflower) that orients itself towards the sun. 
+
+All the component selection work done by Nick Ames here: https://www.fetchmodus.org/projects/beam/photopopper/ 
+
+The idea to use two solar panels and the midpoint instead of phototransistors comes from Simon Fraser here : http://www.smfr.org/robots/robot_images/dualsolarhead_schematic.png
 
 My documentation of making the device here: 
 https://www.marrs.io/dual-solar-tracking-part-iii/
 
 https://www.marrs.io/sunflower-array/
-
 
 BOM from Mouser and Digikey: 
 
